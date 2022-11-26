@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.RecipeInforController">
+   <children>
+      <Label fx:id="titles" layoutX="238.0" layoutY="56.0" prefHeight="103.0" prefWidth="293.0" text="Information">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="infor" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="465.0" layoutY="623.0" prefHeight="433.0" prefWidth="352.0" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button fx:id="summary" layoutX="88.0" layoutY="152.0" mnemonicParsing="false" onAction="#handle" prefHeight="54.0" prefWidth="272.0" text="Summary">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="instruction" layoutX="373.0" layoutY="152.0" mnemonicParsing="false" onAction="#handle" prefHeight="54.0" prefWidth="272.0" text="Instruction">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="29.0" layoutY="23.0" mnemonicParsing="false" onAction="#click" text="Back" />
+      <ScrollPane fx:id="scroll" layoutX="85.0" layoutY="221.0" prefHeight="515.0" prefWidth="559.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+         <padding>
+            <Insets bottom="10.0" left="25.0" right="25.0" top="10.0" />
+         </padding>
+      </ScrollPane>
+   </children>
+</AnchorPane>

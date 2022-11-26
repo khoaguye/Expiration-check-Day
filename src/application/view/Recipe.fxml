@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.RecipeController">
+   <children>
+      <Label fx:id="header" layoutX="71.0" layoutY="49.0" prefHeight="76.0" prefWidth="678.0" text="The Recommedation Recipe For">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="pane_0" layoutX="50.0" layoutY="156.0" onDragDetected="#handle" prefHeight="263.0" prefWidth="207.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Label fx:id="title_0" layoutX="14.0" layoutY="94.0" prefHeight="43.0" prefWidth="180.0" text="Label" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="calories_0" layoutX="93.0" layoutY="137.0" prefHeight="17.0" prefWidth="102.0" text="Calories" />
+            <Label fx:id="protein_0" layoutX="9.0" layoutY="137.0" prefHeight="17.0" prefWidth="84.0" text="Protein" />
+            <Label fx:id="fat_0" layoutX="93.0" layoutY="161.0" prefHeight="25.0" prefWidth="102.0" text="Fat:" />
+            <Label fx:id="carbs_0" layoutX="9.0" layoutY="161.0" prefHeight="25.0" prefWidth="120.0" text="Carbs:" />
+            <Button fx:id="btn_0" layoutX="40.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#handle" text="More information " />
+            <ImageView fx:id="img_0" fitHeight="92.0" fitWidth="200.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane_1" layoutX="297.0" layoutY="156.0" onDragDetected="#handle" prefHeight="263.0" prefWidth="207.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Label fx:id="title_1" layoutX="14.0" layoutY="94.0" prefHeight="35.0" prefWidth="180.0" text="Label" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="calories_1" layoutX="93.0" layoutY="137.0" prefHeight="17.0" prefWidth="102.0" text="Calories" />
+            <Label fx:id="protein_1" layoutX="9.0" layoutY="137.0" prefHeight="17.0" prefWidth="84.0" text="Protein" />
+            <Label fx:id="fat_1" layoutX="93.0" layoutY="161.0" prefHeight="25.0" prefWidth="102.0" text="Fat:" />
+            <Label fx:id="carbs_1" layoutX="9.0" layoutY="161.0" prefHeight="25.0" prefWidth="120.0" text="Carbs:" />
+            <Button fx:id="btn_1" layoutX="40.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#handle" text="More information " />
+            <ImageView fx:id="img_1" fitHeight="92.0" fitWidth="200.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane_2" layoutX="554.0" layoutY="156.0" onDragDetected="#handle" prefHeight="263.0" prefWidth="207.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Label fx:id="title_2" layoutX="14.0" layoutY="94.0" prefHeight="35.0" prefWidth="180.0" text="Label" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="calories_2" layoutX="93.0" layoutY="137.0" prefHeight="17.0" prefWidth="102.0" text="Calories" />
+            <Label fx:id="protein_2" layoutX="9.0" layoutY="137.0" prefHeight="17.0" prefWidth="84.0" text="Protein" />
+            <Label fx:id="fat_2" layoutX="93.0" layoutY="161.0" prefHeight="25.0" prefWidth="102.0" text="Fat:" />
+            <Label fx:id="carbs_2" layoutX="9.0" layoutY="161.0" prefHeight="25.0" prefWidth="120.0" text="Carbs:" />
+            <Button fx:id="btn_2" layoutX="40.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#handle" text="More information " />
+            <ImageView fx:id="img_2" fitHeight="92.0" fitWidth="200.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane_3" layoutX="50.0" layoutY="441.0" onDragDetected="#handle" prefHeight="263.0" prefWidth="207.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Label fx:id="title_3" layoutX="14.0" layoutY="94.0" prefHeight="35.0" prefWidth="180.0" text="Label" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="calories_3" layoutX="93.0" layoutY="137.0" prefHeight="17.0" prefWidth="102.0" text="Calories" />
+            <Label fx:id="protein_3" layoutX="9.0" layoutY="137.0" prefHeight="17.0" prefWidth="84.0" text="Protein" />
+            <Label fx:id="fat_3" layoutX="93.0" layoutY="161.0" prefHeight="25.0" prefWidth="102.0" text="Fat:" />
+            <Label fx:id="carbs_3" layoutX="9.0" layoutY="161.0" prefHeight="25.0" prefWidth="120.0" text="Carbs:" />
+            <Button fx:id="btn_3" layoutX="40.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#handle" text="More information " />
+            <ImageView fx:id="img_3" fitHeight="92.0" fitWidth="200.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane_4" layoutX="297.0" layoutY="441.0" onDragDetected="#handle" prefHeight="263.0" prefWidth="207.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Label fx:id="title_4" layoutX="14.0" layoutY="94.0" prefHeight="35.0" prefWidth="180.0" text="Label" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="calories_4" layoutX="93.0" layoutY="137.0" prefHeight="17.0" prefWidth="102.0" text="Calories" />
+            <Label fx:id="protein_4" layoutX="9.0" layoutY="137.0" prefHeight="17.0" prefWidth="84.0" text="Protein" />
+            <Label fx:id="fat_4" layoutX="93.0" layoutY="161.0" prefHeight="25.0" prefWidth="102.0" text="Fat:" />
+            <Label fx:id="carbs_4" layoutX="9.0" layoutY="161.0" prefHeight="25.0" prefWidth="120.0" text="Carbs:" />
+            <Button fx:id="btn_4" layoutX="40.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#handle" text="More information " />
+            <ImageView fx:id="img_4" fitHeight="92.0" fitWidth="200.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane_5" layoutX="554.0" layoutY="441.0" onDragDetected="#handle" prefHeight="263.0" prefWidth="207.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Label fx:id="title_5" layoutX="14.0" layoutY="94.0" prefHeight="35.0" prefWidth="180.0" text="Label" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="calories_5" layoutX="93.0" layoutY="137.0" prefHeight="17.0" prefWidth="102.0" text="Calories" />
+            <Label fx:id="protein_5" layoutX="9.0" layoutY="137.0" prefHeight="17.0" prefWidth="84.0" text="Protein" />
+            <Label fx:id="fat_5" layoutX="93.0" layoutY="161.0" prefHeight="25.0" prefWidth="102.0" text="Fat:" />
+            <Label fx:id="carbs_5" layoutX="9.0" layoutY="161.0" prefHeight="25.0" prefWidth="120.0" text="Carbs:" />
+            <Button fx:id="btn_5" layoutX="40.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#handle" text="More information " />
+            <ImageView fx:id="img_5" fitHeight="92.0" fitWidth="200.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="informationPane" layoutX="-1.0" layoutY="-1.0" prefHeight="1063.0" prefWidth="820.0">
+         <children>
+            <Label fx:id="titles" layoutX="238.0" layoutY="56.0" prefHeight="103.0" prefWidth="293.0" text="Information">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="infor" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="465.0" layoutY="623.0" prefHeight="433.0" prefWidth="352.0" textOverrun="CLIP" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="summary" layoutX="88.0" layoutY="152.0" mnemonicParsing="false" onAction="#select" prefHeight="54.0" prefWidth="272.0" text="Summary">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="instruction" layoutX="373.0" layoutY="152.0" mnemonicParsing="false" onAction="#select" prefHeight="54.0" prefWidth="272.0" text="Instruction">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="back" layoutX="29.0" layoutY="23.0" mnemonicParsing="false" onAction="#click" text="Back" />
+            <ScrollPane fx:id="scroll" layoutX="80.0" layoutY="221.0" prefHeight="510.0" prefWidth="564.0">
+               <padding>
+                  <Insets bottom="10.0" left="25.0" right="25.0" top="10.0" />
+               </padding>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
